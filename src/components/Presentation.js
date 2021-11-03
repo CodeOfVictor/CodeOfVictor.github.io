@@ -9,12 +9,18 @@ import { makeStyles } from '@mui/styles';
 const useStyles = makeStyles({
     textInfo:
     {
-        paddingTop: 6
+        textAlign:"center",
+        paddingTop: 6,
+        color: "white"
     },
     buttonInfo:
     {
-        marginTop: '10px !important',
+        marginLeft: '10px !important',
         width: '7rem'
+    },
+    linkButtons:
+    {
+        justifyContent: 'center'
     }
 });
 
@@ -29,31 +35,32 @@ const Presentation = () => {
     
     return (
         <Grid container spacing={4} justifyContent={'center'} alignItems={'center'}>
-            <Grid container justifyContent={'center'} item xs={2}>
+            <Grid container justifyContent={'center'} item xs={12}>
                 <Avatar
+                    style={{marginTop: 32}}
                     alt='Image cv'
-                    src='' // cvPhoto.jpg
-                    sx={{ width: 150, height: 150 }}
+                    src='cvPhoto.jpg' // cvPhoto.jpg
+                    sx={{ width: 225, height: 225 }}
                 />
             </Grid>
-            <Grid item xs={8}>
-                <Typography className={classes.textInfo}>
+            <Grid item xs={12}>
+                <Typography className={classes.textInfo} style={{ fontFamily: "Montserrat"}}>
                     Víctor José B.M.
                 </Typography>
-                <Typography className={classes.textInfo}>
+                <Typography className={classes.textInfo} style={{ fontFamily: "Montserrat"}}>
                     29/09/1998
                 </Typography>
-                <Typography className={classes.textInfo}>
+                <Typography className={classes.textInfo} style={{ fontFamily: "Montserrat"}}>
                     Zaragoza 50018
                 </Typography>
-                <Typography className={classes.textInfo}>
+                <Typography className={classes.textInfo} style={{ fontFamily: "Montserrat"}}>
                     correovictorb@gmail.com
                 </Typography>
             </Grid>
-            <Grid item xs={2}>
-                <Button variant="outlined" className={classes.buttonInfo} onClick={() => openLink('https://www.linkedin.com/in/v%C3%ADctor-jos%C3%A9/', 'linkedin')}><LinkedInIcon/>LinkedIn</Button><br/>
-                <Button variant="outlined" className={classes.buttonInfo} onClick={() => openLink('https://github.com/CodeOfVictor', 'github')}><GitHubIcon/>Github</Button><br/>
-                <Button variant="outlined" className={classes.buttonInfo} onClick={() => openLink('https://github.com/CodeOfVictor', 'twitter')}><TwitterIcon/>Twitter</Button><br/>
+            <Grid container justifyContent={'center'} item xs={12}>
+                <Button variant="outlined" className={classes.buttonInfo} onClick={() => openLink('https://www.linkedin.com/in/v%C3%ADctor-jos%C3%A9/', 'linkedin')}><LinkedInIcon/>LinkedIn</Button>
+                <Button variant="outlined" className={classes.buttonInfo} onClick={() => openLink('https://github.com/CodeOfVictor', 'github')}><GitHubIcon/>Github</Button>
+                <Button variant="outlined" className={classes.buttonInfo} onClick={() => openLink('https://twitter.com/CodeOfVictor', 'twitter')}><TwitterIcon/>Twitter</Button>
                 <Button variant="outlined" className={classes.buttonInfo} onClick={() => openLink('mailto:correovictorb@gmail.com', 'email')}><EmailIcon/>Mail</Button>
             </Grid>
         </Grid>
