@@ -24,7 +24,7 @@ const Projects = () => {
             </Grid>
 
 
-            <Grid item xs={6}>
+            <Grid item xs={7}>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 36, marginBottom: 52}}>
                     VIDEOGAME SHOP TYCOON
                 </Typography>
@@ -38,46 +38,49 @@ const Projects = () => {
                     clientes, misiones y empleados para llevarla al exito.
                 </Typography>
             </Grid>
-            <Grid item xs={5}>
-                <img src='VideogameShopTycoon.gif' width="75%" height="75%"/>
+            <Grid item xs={5} style={{display: "flex", justifyContent: "left"}}>
+                <img src='VideogameShopTycoon.gif' width="75%" height="75%" style={{maxWidth: '100%'}} />
             </Grid>
 
 
-            <Grid item xs={3}>
-                <img src='CodeLyokoVR.gif' />
+            <Grid item xs={5} style={{display: "flex", justifyContent: "right"}}>
+                <img src='CodeLyokoVR.gif' style={{maxWidth: '100%'}} />
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={7}>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 36, marginBottom: 52}}>
                     CODIGO LYOKO VR
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    Videojuego VR creado en Unity y con la biblioteca de Oculus 
+                    Videojuego VR creado en Unity y con la herramientas de Oculus 
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    Hecho en 2 dias basado en la serie de animacion Codigo Lyoko para
+                    Hecho en 2 dias basado en la serie de animacion Codigo Lyoko en la que tienes que
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    las gafas de realidad virtual Oculus 2.
+                sobrevivir a rondas de enemigos para las gafas de realidad virtual Oculus 2.
                 </Typography>
             </Grid>
 
 
-            <Grid item xs={6}>
+            <Grid item xs={7}>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 36, marginBottom: 52}}>
                     PRUEBAS EN VR
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
                     Pruebas de proyectos realizado en Unity para VR
                 </Typography>
+                <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
+                    usando diferentes herramientas de VR.
+                </Typography>
             </Grid>
+            <Grid item xs={5} style={{display: "flex", justifyContent: "left"}}>
+                <img src='FarmProject.gif' style={{maxWidth: '100%'}} />
+            </Grid>
+
+
             <Grid item xs={5}>
-                <img src='FarmProject.gif' />
             </Grid>
-
-
-            <Grid item xs={3}>
-            </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={7}>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 36, marginBottom: 52}}>
                     ADRIFT
                 </Typography>

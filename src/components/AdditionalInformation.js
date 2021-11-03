@@ -37,7 +37,7 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat" }}>UNITY</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>UNITY</Box>
                     <Rating
                         readOnly
                         value={5}
@@ -52,7 +52,7 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat" }}>JS</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>JS</Box>
                     <Rating
                         readOnly
                         value={4}
@@ -67,7 +67,7 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat" }}>PHP</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>PHP</Box>
                     <Rating
                         readOnly
                         value={4}
@@ -82,7 +82,7 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat" }}>Java</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>Java</Box>
                     <Rating
                         readOnly
                         value={5}
@@ -100,10 +100,10 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat" }}>React</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>React</Box>
                     <Rating
                         readOnly
-                        value={1}
+                        value={2}
                         emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
                     />
                 </Box>
@@ -115,7 +115,7 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat" }}>SQL</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>SQL</Box>
                     <Rating
                         readOnly
                         value={3}
@@ -130,7 +130,7 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat" }}>Angular</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>Angular</Box>
                     <Rating
                         readOnly
                         value={1}
@@ -145,7 +145,7 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat" }}>C, C++</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>C, C++</Box>
                     <Rating
                         readOnly
                         value={3}
@@ -163,7 +163,7 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat" }}>.NET (C#)</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>.NET (C#)</Box>
                     <Rating
                         readOnly
                         value={4}
@@ -178,7 +178,7 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat" }}>Python</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>Python</Box>
                     <Rating
                         readOnly
                         value={2}
