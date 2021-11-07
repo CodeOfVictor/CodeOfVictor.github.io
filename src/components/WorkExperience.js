@@ -36,6 +36,9 @@ const WorkExperience = () => {
                     Desarrollador en realidad aumentada con el dispositivo Microsoft Hololens y Unity.
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat"}}>
+                    Desarrollador de dispositivos moviles con AR (Realidad aumentada) con Vuforia y Unity.
+                </Typography>
+                <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat"}}>
                     Desarrollador web con Node JS para la visualizacion de modelos 3D
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", marginTop: 30, fontSize: 22}}>
