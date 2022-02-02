@@ -52,7 +52,22 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>JS</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>UNREAL</Box>
+                    <Rating
+                        readOnly
+                        value={2}
+                        emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
+                    />
+                </Box>
+
+                <Box
+                    sx={{
+                        display: 'flex',
+                        alignItems: 'center'
+                    }}
+                    style={{justifyContent:'center'}}
+                >
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>C, C++</Box>
                     <Rating
                         readOnly
                         value={4}
@@ -67,7 +82,7 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>PHP</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>JS</Box>
                     <Rating
                         readOnly
                         value={4}
@@ -92,6 +107,20 @@ const Additionalinformation = () => {
                 
             </Grid>
             <Grid item xs={12} container justifyContent={'center'}>
+                <Box
+                    sx={{
+                        display: 'flex',
+                        alignItems: 'center'
+                    }}
+                    style={{justifyContent:'center'}}
+                >
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>.NET (C#)</Box>
+                    <Rating
+                        readOnly
+                        value={4}
+                        emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
+                    />
+                </Box>
 
                 <Box
                     sx={{
@@ -100,10 +129,10 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>React</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>PHP</Box>
                     <Rating
                         readOnly
-                        value={2}
+                        value={4}
                         emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
                     />
                 </Box>
@@ -138,24 +167,8 @@ const Additionalinformation = () => {
                     />
                 </Box>
 
-                <Box
-                    sx={{
-                        display: 'flex',
-                        alignItems: 'center'
-                    }}
-                    style={{justifyContent:'center'}}
-                >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>C, C++</Box>
-                    <Rating
-                        readOnly
-                        value={3}
-                        emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
-                    />
-                </Box>
-
             </Grid>
             <Grid item xs={12} container justifyContent={'center'}>
-
                 <Box
                     sx={{
                         display: 'flex',
@@ -163,10 +176,10 @@ const Additionalinformation = () => {
                     }}
                     style={{justifyContent:'center'}}
                 >
-                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>.NET (C#)</Box>
+                    <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>React</Box>
                     <Rating
                         readOnly
-                        value={4}
+                        value={2}
                         emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
                     />
                 </Box>

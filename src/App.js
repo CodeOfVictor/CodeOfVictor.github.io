@@ -4,6 +4,7 @@ import Studies from './components/Studies';
 import WorkExperience from './components/WorkExperience';
 import Projects from './components/Projects';
 import Additionalinformation from './components/AdditionalInformation';
+import Archivements from './components/Archivements';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <WorkExperience />
       <Projects />
       <Additionalinformation />
+      <Archivements />
+      <br></br>
     </div>
   );
 }

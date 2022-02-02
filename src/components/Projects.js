@@ -29,13 +29,13 @@ const Projects = () => {
                     VIDEOGAME SHOP TYCOON
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    Videojuego creado en Unity de genero tycoon.
+                    Videojuego creado en Unity de género tycoon.
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
                     Tienes que construir y gestionar una tienda con sus compras, ventas,
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    clientes, misiones y empleados para llevarla al exito.
+                    clientes, misiones y empleados para llevarla al éxito.
                 </Typography>
             </Grid>
             <Grid item xs={5} style={{display: "flex", justifyContent: "left"}}>
@@ -51,10 +51,10 @@ const Projects = () => {
                     CODIGO LYOKO VR
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    Videojuego VR creado en Unity y con la herramientas de Oculus 
+                    Videojuego VR creado en Unity y con la herramienta de Oculus 
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    Hecho en 2 dias basado en la serie de animacion Codigo Lyoko en la que tienes que
+                    Hecho en 2 días basado en la serie de animación Codigo Lyoko en la que tienes que
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
                 sobrevivir a rondas de enemigos para las gafas de realidad virtual Oculus 2.
@@ -88,10 +88,10 @@ const Projects = () => {
                     Videojuego creado en Unity, en el que tienes que poner planetas
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    para que cuando la nave se encienda cambie la rura
+                    para que cuando la nave se encienda siga la ruta
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    segun la gravedad y fisicas de los planetas.
+                    segun la gravedad y físicas de los planetas.
                 </Typography>
             </Grid>
         </Grid>
