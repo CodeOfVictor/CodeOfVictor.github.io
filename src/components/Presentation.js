@@ -39,7 +39,7 @@ const Presentation = () => {
                 <Avatar
                     style={{marginTop: 32}}
                     alt='Image cv'
-                    src='cvPhoto.jpg' // cvPhoto.jpg
+                    src='redonda.png' // cvPhoto.jpg
                     sx={{ width: 225, height: 225 }}
                 />
             </Grid>

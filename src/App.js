@@ -5,6 +5,7 @@ import WorkExperience from './components/WorkExperience';
 import Projects from './components/Projects';
 import Additionalinformation from './components/AdditionalInformation';
 import Archivements from './components/Archivements';
+import Courses from './components/Courses';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Presentation />
       <Studies />
       <WorkExperience />
+      <Courses />
       <Projects />
       <Additionalinformation />
       <Archivements />

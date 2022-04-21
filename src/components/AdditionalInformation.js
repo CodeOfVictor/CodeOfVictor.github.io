@@ -179,7 +179,7 @@ const Additionalinformation = () => {
                     <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>React</Box>
                     <Rating
                         readOnly
-                        value={2}
+                        value={3}
                         emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
                     />
                 </Box>
@@ -194,7 +194,7 @@ const Additionalinformation = () => {
                     <Box sx={{ ml: 2 }} className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: 5 }}>Python</Box>
                     <Rating
                         readOnly
-                        value={2}
+                        value={4}
                         emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
                     />
                 </Box>
