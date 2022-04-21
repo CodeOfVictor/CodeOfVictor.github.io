@@ -13,10 +13,10 @@ function App() {
       <Presentation />
       <Studies />
       <WorkExperience />
-      <Courses />
+      <Archivements />
       <Projects />
       <Additionalinformation />
-      <Archivements />
+      <Courses />
       <br></br>
     </div>
   );
