@@ -4,8 +4,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@beta/devicons-react": "npm:devicons-react@^1.2.6-beta-0.1.8",
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@material-ui/styles": "^4.11.4",
     "@material/theme": "^13.0.0",
     "@mui/icons-material": "^5.0.5",
@@ -14,9 +20,10 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "devicons-react": "^1.2.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
