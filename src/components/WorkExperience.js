@@ -2,6 +2,8 @@ import React from "react";
 import { Grid, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 
+import { useTranslation } from 'react-i18next';
+
 const useStyles = makeStyles({
     textInfo:
     {
@@ -15,37 +17,39 @@ const WorkExperience = () => {
 
     const classes = useStyles();
     
+    const { t } = useTranslation();
+    
     return (
-        <Grid container spacing={4} justifyContent={'center'} alignItems={'center'} style={{marginTop: 18}}>
-            <Grid container justifyContent={'center'} item xs={12}>
+        <Grid id='works' container spacing={4} justifyContent={'center'} alignItems={'center'} style={{marginTop: 18}}>
+            <Grid container justifyContent={'center'} item xs={12} style={{marginTop: 18}}>
             <Typography className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 32}}>
-                    Experiencia Laboral
+                    {t('works.title')}
                 </Typography>
             </Grid>
             <Grid item xs={12}>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    VICEPRESIDENTE Y PROGRAMADOR DE 4 FREAKS FICTION
+                    {t('works.title1')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat"}}>
-                    Compañía junior con el objetivo de programar en el sector de videojuegos para una mayor experiencia durante la carrera universitaria.
+                    {t('works.subtitle1-1')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", marginTop: 30, fontSize: 22}}>
-                    PROGRAMADOR EN REALIDAD AUMENTADA Y WEB (NODE JS) EN HIBERUS
+                    {t('works.title2')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat"}}>
-                    Desarrollador en realidad aumentada con el dispositivo Microsoft Hololens y Unity.
+                    {t('works.subtitle2-1')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat"}}>
-                    Desarrollador de dispositivos móviles con AR (Realidad aumentada) con Vuforia y Unity.
+                    {t('works.subtitle2-2')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat"}}>
-                    Desarrollador web con Node JS para la visualización de modelos 3D
+                    {t('works.subtitle2-3')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", marginTop: 30, fontSize: 22}}>
-                    PROGRAMADOR EN .NET EN HIBERUS
+                    {t('works.title3')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat"}}>
-                    Formación en .net durante 3 meses
+                    {t('works.subtitle3-1')}
                 </Typography>
             </Grid>
         </Grid>

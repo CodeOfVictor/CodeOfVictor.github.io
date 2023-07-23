@@ -2,6 +2,8 @@ import React from "react";
 import { Grid, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 
+import { useTranslation } from 'react-i18next';
+
 const useStyles = makeStyles({
     textInfo:
     {
@@ -14,28 +16,30 @@ const useStyles = makeStyles({
 const Projects = () => {
 
     const classes = useStyles();
+
+    const { t } = useTranslation();
     
     return (
-        <Grid container spacing={4} justifyContent={'center'} alignItems={'center'} style={{marginTop: 18}}>
-            <Grid container justifyContent={'center'} item xs={12}>
+        <Grid id='projects' container spacing={4} justifyContent={'center'} alignItems={'center'} style={{marginTop: 18}}>
+            <Grid container justifyContent={'center'} item xs={12} style={{marginTop: 18}}>
                 <Typography className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 32}}>
-                    Proyectos
+                    {t('projects.title')}
                 </Typography>
             </Grid>
 
 
             <Grid item xs={7}>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 36, marginBottom: 52}}>
-                    VIDEOGAME SHOP TYCOON
+                    {t('projects.title1')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    Videojuego creado en Unity de género tycoon.
+                    {t('projects.subtitle1-1')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    Tienes que construir y gestionar una tienda con sus compras, ventas,
+                    {t('projects.subtitle1-2')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    clientes, misiones y empleados para llevarla al éxito.
+                    {t('projects.subtitle1-3')}
                 </Typography>
             </Grid>
             <Grid item xs={5} style={{display: "flex", justifyContent: "left"}}>
@@ -48,29 +52,29 @@ const Projects = () => {
             </Grid>
             <Grid item xs={7}>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 36, marginBottom: 52}}>
-                    CODIGO LYOKO VR
+                    {t('projects.title2')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    Videojuego VR creado en Unity y con la herramienta de Oculus 
+                    {t('projects.subtitle2-1')} 
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    Hecho en 2 días basado en la serie de animación Codigo Lyoko en la que tienes que
+                    {t('projects.subtitle2-2')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                sobrevivir a rondas de enemigos para las gafas de realidad virtual Oculus 2.
+                    {t('projects.subtitle2-3')}
                 </Typography>
             </Grid>
 
 
             <Grid item xs={7}>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 36, marginBottom: 52}}>
-                    PRUEBAS EN VR
+                    {t('projects.title3')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    Pruebas de proyectos realizado en Unity para VR
+                    {t('projects.subtitle3-1')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    usando diferentes herramientas de VR.
+                    {t('projects.subtitle3-2')}
                 </Typography>
             </Grid>
             <Grid item xs={5} style={{display: "flex", justifyContent: "left"}}>
@@ -82,16 +86,13 @@ const Projects = () => {
             </Grid>
             <Grid item xs={7}>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 36, marginBottom: 52}}>
-                    ADRIFT
+                    {t('projects.title4')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    Videojuego creado en Unity, en el que tienes que poner planetas
+                    {t('projects.subtitle4-1')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    para que cuando la nave se encienda siga la ruta
-                </Typography>
-                <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    segun la gravedad y físicas de los planetas.
+                    {t('projects.subtitle4-2')}
                 </Typography>
             </Grid>
         </Grid>

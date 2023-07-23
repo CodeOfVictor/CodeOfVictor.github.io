@@ -34,7 +34,7 @@ const Presentation = () => {
     }
     
     return (
-        <Grid container spacing={4} justifyContent={'center'} alignItems={'center'}>
+        <Grid id="presentation" container spacing={4} justifyContent={'center'} alignItems={'center'}>
             <Grid container justifyContent={'center'} item xs={12}>
                 <Avatar
                     style={{marginTop: 32}}
@@ -60,7 +60,6 @@ const Presentation = () => {
             <Grid container justifyContent={'center'} item xs={12}>
                 <Button variant="outlined" className={classes.buttonInfo} onClick={() => openLink('https://www.linkedin.com/in/v%C3%ADctor-jos%C3%A9/', 'linkedin')}><LinkedInIcon/>LinkedIn</Button>
                 <Button variant="outlined" className={classes.buttonInfo} onClick={() => openLink('https://github.com/CodeOfVictor', 'github')}><GitHubIcon/>Github</Button>
-                <Button variant="outlined" className={classes.buttonInfo} onClick={() => openLink('https://twitter.com/CodeOfVictor', 'twitter')}><TwitterIcon/>Twitter</Button>
                 <Button variant="outlined" className={classes.buttonInfo} onClick={() => openLink('mailto:correovictorb@gmail.com', 'email')}><EmailIcon/>Mail</Button>
             </Grid>
         </Grid>
@@ -68,3 +67,5 @@ const Presentation = () => {
 }
 
 export default Presentation;
+
+// <Button variant="outlined" className={classes.buttonInfo} onClick={() => openLink('https://twitter.com/CodeOfVictor', 'twitter')}><TwitterIcon/>Twitter</Button>

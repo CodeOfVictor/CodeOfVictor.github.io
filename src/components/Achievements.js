@@ -2,6 +2,8 @@ import React from "react";
 import { Grid, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 
+import { useTranslation } from 'react-i18next';
+
 const useStyles = makeStyles({
     textInfo:
     {
@@ -11,30 +13,32 @@ const useStyles = makeStyles({
     }
 });
 
-const Archivements = () => {
+const Achievements = () => {
 
     const classes = useStyles();
+
+    const { t } = useTranslation();
     
     return (
-        <Grid container spacing={4} justifyContent={'center'} alignItems={'center'} style={{marginTop: 18}}>
-            <Grid container justifyContent={'center'} item xs={12}>
-            <Typography className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 32}}>
-                    Logros
+        <Grid id='achievements' container spacing={4} justifyContent={'center'} alignItems={'center'} style={{marginTop: 18}}>
+            <Grid container justifyContent={'center'} item xs={12} style={{marginTop: 18}}>
+                <Typography className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 32}}>
+                    {t('achievements.title')}
                 </Typography>
             </Grid>
             <Grid item xs={12}>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    - Premio mejor juego 3D (Game of the year USJ 2021)
+                    {t('achievements.title1')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    - Premio del público (Game of the year USJ 2021)
+                    {t('achievements.title2')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    - Semifinal en III Liga Nacional de Retos en el Ciberespacio organizada por la Guardia Civil. (2011)
+                    {t('achievements.title3')}
                 </Typography>
             </Grid>
         </Grid>
     );
 }
 
-export default Archivements;
+export default Achievements;
