@@ -1,0 +1,60 @@
+{
+    "navbarWeb.presentation": "Presentacion",
+    "navbarWeb.studies": "Estudios",
+    "navbarWeb.works": "Experiencia laboral",
+    "navbarWeb.achievements": "Logros",
+    "navbarWeb.projects": "Proyectos",
+    "navbarWeb.languajes": "Lenguajes",
+    "navbarWeb.courses": "Cursos",
+    "navbarWeb.languages": "Idioma",
+
+    "studies.title": "Estudios",
+    "studies.title1": "DOBLE GRADO: INGENIERÍA INFORMÁTICA + DISEÑO Y DESARROLLO DE VIDEOJUEGOS",
+    "studies.university": "UNIVERSIDAD SAN JORGE",
+    "studies.title2": "GRADO SUPERIOR EN DAM: DESARROLLO DE APLICACIONES MULTIPLATAFORMA",
+    "studies.title3": "GRADO MEDIO DE TELECOMUNICACIONES",
+
+    "works.title": "Experiencia laboral",
+    "works.title1": "VICEPRESIDENTE Y PROGRAMADOR DE 4 FREAKS FICTION",
+    "works.subtitle1-1": "Compañía junior con el objetivo de programar en el sector de videojuegos para una mayor experiencia durante la carrera universitaria.",
+    "works.title2": "PROGRAMADOR EN REALIDAD AUMENTADA Y WEB (NODE JS) EN HIBERUS",
+    "works.subtitle2-1": "Desarrollador en realidad aumentada con el dispositivo Microsoft Hololens y Unity.",
+    "works.subtitle2-2": "Desarrollador de dispositivos móviles con AR (Realidad aumentada) con Vuforia y Unity.",
+    "works.subtitle2-3": "Desarrollador web con Node JS para la visualización de modelos 3D",
+    "works.title3": "PROGRAMADOR EN .NET EN HIBERUS",
+    "works.subtitle3-1": "Formación en .net durante 3 meses",
+
+    "achievements.title": "Logros",
+    "achievements.title1": "- Premio mejor juego 3D (Game of the year USJ 2021)",
+    "achievements.title2": "- Premio del público (Game of the year USJ 2021)",
+    "achievements.title3": "- Semifinal en III Liga Nacional de Retos en el Ciberespacio organizada por la Guardia Civil. (2011)",
+
+    "projects.title": "Proyectos",
+    "projects.title1": "VIDEOGAME SHOP TYCOON",
+    "projects.subtitle1-1": "Videojuego creado en Unity de género tycoon.",
+    "projects.subtitle1-2": "Tienes que construir y gestionar una tienda con sus compras, ventas,",
+    "projects.subtitle1-3": "clientes, misiones y empleados para llevarla al éxito.",
+    "projects.title2": "CODIGO LYOKO VR",
+    "projects.subtitle2-1": "Videojuego VR creado en Unity y con la herramienta de Oculus",
+    "projects.subtitle2-2": "Hecho en 2 días para las Oculus Quest 2 basado en la serie de animación Codigo Lyoko",
+    "projects.subtitle2-3": "en la que tienes que sobrevivir a rondas de enemigos.",
+    "projects.title3": "PRUEBAS EN VR",
+    "projects.subtitle3-1": "Pruebas de proyectos realizado en Unity para VR",
+    "projects.subtitle3-2": "usando diferentes herramientas de VR.",
+    "projects.title4": "SIMULADOR DE MEDICINA",
+    "projects.subtitle4-1": "Videojuego creado en Unity para que estudien los alumnos de medicina",
+    "projects.subtitle4-2": "de la Universidad San Jorge. El objetivo es que aprendan a ",
+    "projects.subtitle4-3": "diagnosticar a los pacientes tanto a nivel fisico como mental.",
+
+    "languages.title": "LENGUAJES DE PROGRAMACION",
+
+    "courses.title": "Cursos",
+    "courses.title1": "Ciberseguridad: Introducción al Hacking Ético (Universidad San Jorge - 2022)",
+    "courses.title2": "Programacion en Angular (Universidad San Jorge - 2021)",
+    "courses.title3": "Curso de programacion en Java (San valero - 2016)",
+    "courses.title4": "CCurso de creacion de videojuegos (TRINIT - 2015)",
+
+    "footer.title": "Gracias por leer mi CV.",
+    "footer.subtitle": "Web creada por mi mismo en React."
+    
+}

@@ -1,0 +1,59 @@
+{
+    "navbarWeb.presentation": "Presentation",
+    "navbarWeb.studies": "Studies",
+    "navbarWeb.works": "Work experience",
+    "navbarWeb.achievements": "Achievements",
+    "navbarWeb.projects": "Projects",
+    "navbarWeb.languajes": "Languajes",
+    "navbarWeb.courses": "Courses",
+    "navbarWeb.languages": "Language",
+
+    "studies.title": "Studies",
+    "studies.title1": "DOUBLE DEGREE: COMPUTER ENGINEERING + VIDEO GAME DESIGN AND DEVELOPMENT",
+    "studies.university": "UNIVERSITY SAN JORGE",
+    "studies.title2": "HIGHER VOCATIONAL TRAINING (HVT) IN MULTIPLATFORM APPLICATION DEVELOPMENT",
+    "studies.title3": "INTERMEDIATE VOCATIONAL TRAINING (IVT) IN TELECOMMUNICATIONS",
+
+    "works.title": "Work Experience",
+    "works.title1": "VICE PRESIDENT AND PROGRAMMER AT 4 FREAKS FICTION",
+    "works.subtitle1-1": "Junior company aimed at game programming for a better university experience.",
+    "works.title2": "AUGMENTED REALITY AND WEB PROGRAMMER (NODE JS) AT HIBERUS",
+    "works.subtitle2-1": "Developer in augmented reality using Microsoft Hololens and Unity.",
+    "works.subtitle2-2": "Mobile developer with AR (Augmented Reality) using Vuforia and Unity.",
+    "works.subtitle2-3": "Web developer with Node JS for 3D model visualization.",
+    "works.title3": ".NET PROGRAMMER AT HIBERUS",
+    "works.subtitle3-1": ".NET training for 3 months.",
+
+    "achievements.title": "Achievements",
+    "achievements.title1": "- Best 3D Game Award (Game of the Year USJ 2021)",
+    "achievements.title2": "- Audience Award (Game of the Year USJ 2021)",
+    "achievements.title3": "- Semifinalist in the III National Cyber Challenge League organized by the Civil Guard. (2011)",
+
+    "projects.title": "Projects",
+    "projects.title1": "VIDEOGAME SHOP TYCOON",
+    "projects.subtitle1-1": "Tycoon genre video game created in Unity.",
+    "projects.subtitle1-2": "You have to build and manage a store with its purchases, sales,",
+    "projects.subtitle1-3": "customers, missions, and employees to make it successful.",
+    "projects.title2": "CODE LYOKO VR",
+    "projects.subtitle2-1": "VR video game created in Unity using the Oculus tool.",
+    "projects.subtitle2-2": "Made in 2 days for Oculus Quest 2 based on the animated series Code Lyoko",
+    "projects.subtitle2-3": "where you have to survive rounds of enemies.",
+    "projects.title3": "VR TESTS",
+    "projects.subtitle3-1": "Unity projects tests for VR.",
+    "projects.subtitle3-2": "Using different VR tools.",
+    "projects.title4": "MEDICINE SIMULATOR",
+    "projects.subtitle4-1": "Unity video game for medical students at the University of San Jorge.",
+    "projects.subtitle4-2": "The objective is to learn how to diagnose patients both physically and mentally.",
+
+    "languages.title": "PROGRAMMING LANGUAGES",
+
+    "courses.title": "Courses",
+    "courses.title1": "Cybersecurity: Introduction to Ethical Hacking (University of San Jorge - 2022)",
+    "courses.title2": "Angular Programming (University of San Jorge - 2021)",
+    "courses.title3": "Java Programming Course (San Valero - 2016)",
+    "courses.title4": "Video Game Creation Course (TRINIT - 2015)",
+
+    "footer.title": "Thank you for reading my CV.",
+    "footer.subtitle": "Website created by myself in React."
+
+}
