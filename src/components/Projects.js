@@ -83,7 +83,7 @@ const Projects = () => {
 
             {/* Cuarto proyecto */}
             <Grid item xs={12} sm={5} style={{ display: "flex", justifyContent: "center" }}>
-                
+                <img src='sondaproject.png' style={{ maxWidth: '100%' }} />
             </Grid>
             <Grid item xs={12} sm={7}>
                 <Typography className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 36, marginBottom: 52 }}>
