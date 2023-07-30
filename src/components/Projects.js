@@ -82,6 +82,9 @@ const Projects = () => {
             </Grid>
 
             {/* Cuarto proyecto */}
+            <Grid item xs={12} sm={5} style={{ display: "flex", justifyContent: "center" }}>
+                
+            </Grid>
             <Grid item xs={12} sm={7}>
                 <Typography className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 36, marginBottom: 52 }}>
                 {t('projects.title4')}
@@ -93,7 +96,7 @@ const Projects = () => {
                 {t('projects.subtitle4-2')}
                 </Typography>
             </Grid>
-            </Grid>
+        </Grid>
     );
 }
 
