@@ -8,6 +8,9 @@
     "navbarWeb.courses": "Cursos",
     "navbarWeb.languages": "Idioma",
 
+    "language.spanish": "Nativo",
+    "language.english": "Medio alto",
+
     "studies.title": "Estudios",
     "studies.title1": "DOBLE GRADO: INGENIERÍA INFORMÁTICA + DISEÑO Y DESARROLLO DE VIDEOJUEGOS",
     "studies.university": "UNIVERSIDAD SAN JORGE",
@@ -27,7 +30,7 @@
     "achievements.title": "Logros",
     "achievements.title1": "- Premio mejor juego 3D (Game of the year USJ 2021)",
     "achievements.title2": "- Premio del público (Game of the year USJ 2021)",
-    "achievements.title3": "- Semifinal en III Liga Nacional de Retos en el Ciberespacio organizada por la Guardia Civil. (2011)",
+    "achievements.title3": "- Semifinal en III Liga Nacional de Retos en el Ciberespacio organizada por la Guardia Civil. (2021)",
 
     "projects.title": "Proyectos",
     "projects.title1": "VIDEOGAME SHOP TYCOON",
@@ -51,8 +54,9 @@
     "courses.title": "Cursos",
     "courses.title1": "Ciberseguridad: Introducción al Hacking Ético (Universidad San Jorge - 2022)",
     "courses.title2": "Programacion en Angular (Universidad San Jorge - 2021)",
-    "courses.title3": "Curso de programacion en Java (San valero - 2016)",
-    "courses.title4": "Curso de creacion de videojuegos (TRINIT - 2015)",
+    "courses.title3": "Curso de Especialización Universitaria en Creatividad y Design Thinking (Escuela de Negocios - 2019)",
+    "courses.title4": "Curso de programacion en Java (San valero - 2016)",
+    "courses.title5": "Curso de creacion de videojuegos (TRINIT - 2015)",
 
     "footer.title": "Gracias por leer mi CV.",
     "footer.subtitle": "Web creada por mi mismo en React."

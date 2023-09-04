@@ -39,6 +39,9 @@ const Courses = () => {
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", marginTop: 30, fontSize: 22}}>
                     {t('courses.title4')}
                 </Typography>
+                <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", marginTop: 30, fontSize: 22}}>
+                    {t('courses.title5')}
+                </Typography>
             </Grid>
         </Grid>
     );
