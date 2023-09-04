@@ -8,6 +8,9 @@
     "navbarWeb.courses": "Courses",
     "navbarWeb.languages": "Language",
 
+    "language.spanish": "Native",
+    "language.english": "Medium high",
+
     "studies.title": "Studies",
     "studies.title1": "DOUBLE DEGREE: COMPUTER ENGINEERING + VIDEO GAME DESIGN AND DEVELOPMENT",
     "studies.university": "UNIVERSITY SAN JORGE",
@@ -27,7 +30,7 @@
     "achievements.title": "Achievements",
     "achievements.title1": "- Best 3D Game Award (Game of the Year USJ 2021)",
     "achievements.title2": "- Audience Award (Game of the Year USJ 2021)",
-    "achievements.title3": "- Semifinalist in the III National Cyber Challenge League organized by the Civil Guard. (2011)",
+    "achievements.title3": "- Semifinalist in the III National Cyber Challenge League organized by the Civil Guard. (2021)",
 
     "projects.title": "Projects",
     "projects.title1": "VIDEOGAME SHOP TYCOON",
@@ -50,8 +53,9 @@
     "courses.title": "Courses",
     "courses.title1": "Cybersecurity: Introduction to Ethical Hacking (University of San Jorge - 2022)",
     "courses.title2": "Angular Programming (University of San Jorge - 2021)",
-    "courses.title3": "Java Programming Course (San Valero - 2016)",
-    "courses.title4": "Video Game Creation Course (TRINIT - 2015)",
+    "courses.title3": "University Specialization Course in Creativity and Design Thinking (Business School - 2019)",
+    "courses.title4": "Java Programming Course (San Valero - 2016)",
+    "courses.title5": "Video Game Creation Course (TRINIT - 2015)",
 
     "footer.title": "Thank you for reading my CV.",
     "footer.subtitle": "Website created by myself in React."
