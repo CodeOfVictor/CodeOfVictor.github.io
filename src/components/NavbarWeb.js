@@ -51,7 +51,7 @@ const NavbarWeb = () => {
           <Nav.Link href="#languages">{t('navbarWeb.languages')}</Nav.Link>
           <Nav.Link href="#courses">{t('navbarWeb.courses')}</Nav.Link>
         </Nav>
-        <Navbar.Text style={{ marginRight: '10px' }}>{t('navbarWeb.languages')}</Navbar.Text>
+        <Navbar.Text style={{ marginRight: '10px' }}>{t('navbarWeb.language')}</Navbar.Text>
         <Form.Check
           type="switch"
           id="language-switch"
