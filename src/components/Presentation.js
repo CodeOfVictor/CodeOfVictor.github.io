@@ -79,15 +79,15 @@ const Presentation = () => {
                         {t('language.english')}
                     </Typography>
                 </Grid>
-                {/*<Grid style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', marginRight: 12}}>
+                <Grid style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', marginRight: 12}}>
                     <Avatar
                         style={{width: 32, height: 32, marginRight: '5px'}}
                         src='http://purecatamphetamine.github.io/country-flag-icons/3x2/DE.svg'
                     />
                     <Typography className={classes.textInfo} style={{ fontFamily: "Montserrat", marginRight: '10px'}}>
-                        Low
+                        {t('language.german')}
                     </Typography>
-                </Grid>*/}
+                </Grid>
             </Grid>
         </Grid>
     );
