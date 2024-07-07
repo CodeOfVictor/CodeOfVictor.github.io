@@ -28,13 +28,13 @@ const Achievements = () => {
             </Grid>
             <Grid item xs={12}>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
+                    {t('achievements.title3')}
+                </Typography>
+                <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
                     {t('achievements.title1')}
                 </Typography>
                 <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
                     {t('achievements.title2')}
-                </Typography>
-                <Typography  className={classes.textInfo} style={{ fontFamily: "Montserrat", fontSize: 22}}>
-                    {t('achievements.title3')}
                 </Typography>
             </Grid>
         </Grid>

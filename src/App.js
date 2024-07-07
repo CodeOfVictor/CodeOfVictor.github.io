@@ -18,11 +18,11 @@ function App() {
       <NavbarWeb />
       <Presentation />
       <Studies />
-      <WorkExperience />
-      <Achievements />
-      <Projects />
       <Additionalinformation />
+      <WorkExperience />
       <Courses />
+      <Projects />
+      <Achievements />
       <br></br>
       <Footer />
       <br></br>

@@ -13,14 +13,14 @@
     "language.german": "Basic",
 
     "studies.title": "Studies",
-    "studies.title1": "DOUBLE DEGREE: COMPUTER ENGINEERING + VIDEO GAME DESIGN AND DEVELOPMENT",
+    "studies.title1": "DOUBLE BACHELOR'S DEGREE: COMPUTER ENGINEERING + VIDEO GAME DESIGN AND DEVELOPMENT",
     "studies.university": "UNIVERSITY SAN JORGE",
     "studies.title2": "HIGHER VOCATIONAL TRAINING (HVT) IN MULTIPLATFORM APPLICATION DEVELOPMENT",
     "studies.title3": "INTERMEDIATE VOCATIONAL TRAINING (IVT) IN TELECOMMUNICATIONS",
 
     "works.title": "Work Experience",
     "works.title1": "VICE PRESIDENT AND PROGRAMMER AT 4 FREAKS FICTION",
-    "works.subtitle1-1": "Junior company aimed at game programming for a better university experience.",
+    "works.subtitle1-1": "Junior universitary company aimed at game programming for a better university experience.",
     "works.title2": "AUGMENTED REALITY AND WEB PROGRAMMER (NODE JS) AT HIBERUS",
     "works.subtitle2-1": "Developer in augmented reality using Microsoft Hololens and Unity.",
     "works.subtitle2-2": "Mobile developer with AR (Augmented Reality) using Vuforia and Unity.",
@@ -31,7 +31,7 @@
     "achievements.title": "Achievements",
     "achievements.title1": "- Best 3D Game Award (Game of the Year USJ 2021)",
     "achievements.title2": "- Audience Award (Game of the Year USJ 2021)",
-    "achievements.title3": "- Semifinalist in the III National Cyber Challenge League organized by the Civil Guard. (2021)",
+    "achievements.title3": "- Semifinalist in the III National Cyber Challenge League organized by the Civil Guard (2021)",
 
     "projects.title": "Projects",
     "projects.title1": "VIDEOGAME SHOP TYCOON",
@@ -48,9 +48,13 @@
     "projects.title4": "MEDICINE SIMULATOR",
     "projects.subtitle4-1": "Unity video game for medical students at the University of San Jorge.",
     "projects.subtitle4-2": "The objective is to learn how to diagnose patients both physically and mentally.",
+    "projects.title5": "Bachelor's Degree in Computer Engineering - Thesis: Development of a Telemetry System for Cycling and Analysis of Its Sectors",
+    "projects.subtitle5-1": "Creation of an aerodynamics telemetry system both by files of completed sessions and in real time.",
+    "projects.subtitle5-2": "Development of a web system using React for the front-end, an API developed with NodeJS and TypeScript, and a database in MariaDB. It includes a real-time telemetry option through a Raspberry Pi with a program written in Python.",
+    "projects.title6": "Bachelor's Degree in Design and creation of videogames - Final Project: Study on the gameplay and optimization of a video game in Virtual Reality",
+    "projects.subtitle6-1": "Creation of a framework that facilitates the creation of videogames in Virtual Reality and analyze possible functionalities of interaction (gameplay) in virtual reality.",
 
     "languages.title": "LANGUAGES AND FRAMEWORKS",
-
     "courses.title": "Courses",
     "courses.title1": "Cybersecurity: Introduction to Ethical Hacking (University of San Jorge - 2022)",
     "courses.title2": "Angular Programming (University of San Jorge - 2021)",

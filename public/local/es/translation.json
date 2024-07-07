@@ -20,7 +20,7 @@
 
     "works.title": "Experiencia laboral",
     "works.title1": "VICEPRESIDENTE Y PROGRAMADOR DE 4 FREAKS FICTION",
-    "works.subtitle1-1": "Compañía junior con el objetivo de programar en el sector de videojuegos para una mayor experiencia durante la carrera universitaria.",
+    "works.subtitle1-1": "Compañía junior universitaria con el objetivo de programar en el sector de videojuegos para una mayor experiencia durante la carrera universitaria.",
     "works.title2": "PROGRAMADOR EN REALIDAD AUMENTADA Y WEB (NODE JS) EN HIBERUS",
     "works.subtitle2-1": "Desarrollador en realidad aumentada con el dispositivo Microsoft Hololens y Unity.",
     "works.subtitle2-2": "Desarrollador de dispositivos móviles con AR (Realidad aumentada) con Vuforia y Unity.",
@@ -31,7 +31,7 @@
     "achievements.title": "Logros",
     "achievements.title1": "- Premio mejor juego 3D (Game of the year USJ 2021)",
     "achievements.title2": "- Premio del público (Game of the year USJ 2021)",
-    "achievements.title3": "- Semifinal en III Liga Nacional de Retos en el Ciberespacio organizada por la Guardia Civil. (2021)",
+    "achievements.title3": "- Semifinal en III Liga Nacional de Retos en el Ciberespacio organizada por la Guardia Civil (2021)",
 
     "projects.title": "Proyectos",
     "projects.title1": "VIDEOGAME SHOP TYCOON",
@@ -49,6 +49,12 @@
     "projects.subtitle4-1": "Videojuego creado en Unity para que estudien los alumnos de medicina",
     "projects.subtitle4-2": "de la Universidad San Jorge. El objetivo es que aprendan a ",
     "projects.subtitle4-3": "diagnosticar a los pacientes tanto a nivel fisico como mental.",
+    "projects.title5": "Grado en Ingeniería Informática - TFG: Creación de un sistema de telemetría para el ciclismo y estudio de su sector",
+    "projects.subtitle5-1": "Creación de un sistema de telemetría de la aerodinámica tanto por ficheros de sesiones finalizadas como en tiempo real.",
+    "projects.subtitle5-2": "Desarrollo de un sistema web utilizando React para el front-end, una API desarrollada con NodeJS y TypeScript, y una base de datos en MariaDB. Incluye una opción de telemetría en tiempo real a través de una Raspberry Pi con un programa escrito en Python.",
+    "projects.title6": "Grado en Diseño y creación de videojuegos - TFG: Estudio sobre el gameplay y optimización de un videojuego en Realidad Virtual",
+    "projects.subtitle6-1": "Creación de un framework que facilita la creación de videojuegos en Realidad Virtual y analizar posibles funcionalidades de interacción (gameplay) en realidad virtual.",
+
 
     "languages.title": "LENGUAJES Y FRAMEWORKS",
 
